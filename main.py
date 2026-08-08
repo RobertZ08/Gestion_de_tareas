@@ -22,3 +22,4 @@ def mostrar_progreso():
     )
     print(porcentaje, "%")
     print("4. Salir")
+    print("prueba")
