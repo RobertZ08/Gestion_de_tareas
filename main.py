@@ -15,6 +15,7 @@ def agregar_tarea():
     }
     tarea.append(tarea)
     print("2. Listar tareas")
+
 def listar_tareas():
     for tarea in tareas:
         print(
@@ -22,6 +23,7 @@ def listar_tareas():
             tarea["completada"]
         )
     print("3. Mostrar progreso")
+
 def mostrar_progreso():
     total = len(tareas)
     if total == 0:
