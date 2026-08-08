@@ -4,4 +4,4 @@ def agregar_tarea():
         "nombre": nombre,
         "completada": False
     }
-    tareas.append(tarea)
+    tarea.append(tarea)
